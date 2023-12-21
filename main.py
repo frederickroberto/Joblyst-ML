@@ -15,7 +15,7 @@ from tensorflow.keras.utils import to_categorical
 app = FastAPI()
 
 # Load the CSV file with job positions
-df = pd.read_csv('dataset - Kualifikasi.csv')  # Ganti dengan path yang sesuai
+df = pd.read_csv('dataset - Kualifikasi.csv')
 
 # Assuming 'Job Position' is the column you are interested in
 labels = df['Job Position']
@@ -77,7 +77,8 @@ async def predict(item: InputText):
         logging.error(f"Error during prediction: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    print(f"Listening to http://127.0.0.1:{port}")
-    uvicorn.run(app, host='127.0.0.1', port=port)
+# Starting the server
+# You can check the API documentation easily using /docs after the server is running
+port = os.environ.get("PORT", 8080)
+print(f"Listening to http://0.0.0.0:{port}")
+uvicorn.run(app, host='0.0.0.0',port=port)
