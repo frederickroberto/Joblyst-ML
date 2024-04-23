@@ -1,0 +1,738 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "How are you?",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup",
+            "??? ??? ??"
+         ],
+         "responses": [
+            "Hello!",
+            "Good to see you again!",
+            "Hi there, how can I help?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "cya",
+            "see you",
+            "bye bye",
+            "See you later",
+            "Goodbye",
+            "I am Leaving",
+            "Bye",
+            "Have a Good day",
+            "talk to you later",
+            "ttyl",
+            "i got to go",
+            "gtg"
+         ],
+         "responses": [
+            "Sad to see you go :(",
+            "Talk to you later",
+            "Goodbye!",
+            "Come back soon"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "creator",
+         "patterns": [
+            "what is the name of your developers",
+            "what is the name of your creators",
+            "what is the name of the developers",
+            "what is the name of the creators",
+            "who created you",
+            "your developers",
+            "your creators",
+            "who are your developers",
+            "developers",
+            "you are made by",
+            "you are made by whom",
+            "who created you",
+            "who create you",
+            "creators",
+            "who made you",
+            "who designed you"
+         ],
+         "responses": [
+            "I was created by the Joblyst app developers."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "name",
+         "patterns": [
+            "name",
+            "your name",
+            "do you have a name",
+            "what are you called",
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "what are you",
+            "who are you",
+            "who is this",
+            "what am i chatting to",
+            "who am i taking to",
+            "what are you"
+         ],
+         "responses": [
+            "I am your helper",
+            "I am an assistant designed to help you navigate Joblyst.",
+            "You can call me Joblyst Assistant.",
+            "I'm your virtual guide for exploring opportunities on Joblyst.",
+            "I go by Joblyst Assistant, here to assist you with your job search.",
+            "I'm your companion on Joblyst, ready to support you in finding your next career move."
+        ],
+         "context_set": ""
+      },
+      {
+         "tag": "contact",
+         "patterns": [
+             "more info",
+             "contact info",
+             "how to contact job",
+             "job email",
+             "job email address",
+             "What is your email",
+             "Email address?",
+             "how to email you",
+             "Job email address?",
+             "how can i contact you",
+             "Can i get your email",
+             "how can i email you",
+             "email",
+             "email address",
+             "send email"
+         ],
+         "responses": [
+             "You can contact us at joblystproject@gmail.com"
+         ],
+         "context_set": ""
+      },   
+      {
+         "tag": "swear",
+         "patterns": [
+            "fuck",
+            "bitch",
+            "shut up",
+            "hell",
+            "stupid",
+            "idiot",
+            "dumb ass",
+            "asshole",
+            "fucker"
+         ],
+         "responses": [
+            "please use appropriate language",
+            "Maintaining decency would be appreciated"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "salutaion",
+         "patterns": [
+            "okk",
+            "okie",
+            "nice work",
+            "well done",
+            "good job",
+            "thanks for the help",
+            "Thank You",
+            "its ok",
+            "Thanks",
+            "Good work",
+            "k",
+            "ok",
+            "okay"
+         ],
+         "responses": [
+            "I am glad I helped you",
+            "Welcome, anything else i can assist you with?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "task",
+         "patterns": [
+            "what can you do",
+            "what are the thing you can do",
+            "things you can do",
+            "what can u do for me",
+            "how u can help me",
+            "why i should use you"
+         ],
+         "responses": [
+            "I can assist with various tasks related to work and provide information about work-related matters."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "job_search_location",
+         "patterns": [
+             "What job opportunities do you have available in?",
+             "Can you help me find job in ?",
+             "I'm looking for jobs in."
+         ],
+         "responses": [
+             "Absolutely! To find job opportunities, use the location filter in our application. Here's how:\n1. Navigate to the main menu.\n2. Tap on the filter icon in the top right corner.\n3. Select the location filter and input the location you're looking for.\n4. Explore the available jobs in the location you're looking for.\nHappy job hunting!",
+             "Sure thing! Looking for jobs in that location? Use the location filter on our platform. Follow these steps:\n1. Head to the main menu.\n2. Find the filter icon in the top right corner.\n3. Set the location filter to the location you're looking for.\n4. Discover the job opportunities in the location you're looking for.\nBest of luck!",
+             "Of course! In search of job openings in that location? Utilize our location filter. Here's how:\n1. Go to the main menu.\n2. Locate the filter option in the top right corner.\n3. Set the location filter to the location you're looking for.\n4. Explore the job listings in the location you're looking for.\nWishing you success in your job search!"
+         ],
+         "context_set": ""
+      },     
+      {
+         "tag": "resume_0r_cv_update",
+         "patterns": [
+             "How do I update my resume on the platform?",
+             "I need to edit my resume. How can I do that?",
+             "Can you guide me through updating my resume?",
+             "How do I update my CV on the platform?",
+             "I need to edit my CV. How can I do that?",
+             "Can you guide me through updating my CV?"
+         ],
+         "responses": [
+             "Sure! Here are the steps to update your resume or CV on our platform:\n1. Go to your profile settings.\n2. Look for the 'CV' or 'Resume' menu.\n3. Click on it to access your CV or resume.\n4. You'll find options to update or delete your current CV/resume.\n5. If you haven't uploaded or added your CV yet, you can do so from the same menu.\nHappy updating!",
+             "Let me walk you through updating your resume or CV:\n1. Navigate to your profile settings.\n2. Find the 'CV' or 'Resume' menu.\n3. Click on it to manage your CV or resume.\n4. From there, you can update or delete your current CV/resume.\n5. If you haven't uploaded your CV yet, you'll have the option to add it.\nHope this helps!",
+             "I'll provide you with instructions on how to update your resume or CV:\n1. Go to your profile settings.\n2. Locate the 'CV' or 'Resume' section.\n3. Access your CV or resume from there.\n4. You'll see options to update or delete your existing CV/resume.\n5. If you haven't added your CV yet, you can upload it from the same section.\nFeel free to reach out if you need further assistance!"
+         ],
+         "context_set": ""
+      }, 
+      {
+         "tag": "job_search_remote",
+         "patterns": [
+             "Can you recommend any remote job opportunities?",
+             "I'm interested in remote work. What options do you have?",
+             "Are there any remote job openings available?"
+         ],
+         "responses": [
+             "Absolutely! To find remote job opportunities, you can use the filter on our platform. Here's how:\n1. Navigate to the main menu.\n2. Tap on the filter icon in the top right corner.\n3. Select the 'Remote' option.\n4. Explore the available remote job openings.\nHappy job hunting!",
+             "Sure thing! Looking for remote job opportunities? You can easily filter them on our platform. Follow these steps:\n1. Go to the main menu.\n2. Tap on the filter icon in the top right corner.\n3. Choose the 'Remote' option.\n4. Browse through the remote job openings.\nWishing you success in your remote job search!",
+             "Of course! Finding remote job opportunities is easy with our platform's filter feature. Here's how:\n1. Navigate to the main menu.\n2. Tap on the filter icon in the top right corner.\n3. Select the 'Remote' option.\n4. Explore the available remote job openings.\nHappy job hunting!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "resume_or_cv_help",
+         "patterns": [
+             "Can you provide tips for writing a cover letter?",
+             "How do I improve my resume?",
+             "Any advice for enhancing my LinkedIn profile?",
+             "Can you provide tips for writing a CV?",
+             "How do I improve my CV?",
+             "Any advice for enhancing my CV?"
+         ],
+         "responses": [
+             "Certainly! To write an effective cover letter, address it to the hiring manager, customize it for the job, highlight your relevant experiences, and conclude with a strong call to action.",
+             "I can help with that! To improve your resume, focus on formatting consistency, quantify your achievements, tailor it to each job application, and proofread for errors.",
+             "Sure thing! To enhance your LinkedIn profile, use a professional photo, write a compelling headline, optimize your summary with keywords, showcase your skills and accomplishments, and engage with your network regularly.",
+             "Absolutely! When writing a CV, ensure it's well-structured, include relevant keywords, highlight your achievements, tailor it to each job application, and keep it concise and easy to read."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "salary_information",
+         "patterns": [
+             "What are the typical salaries for positions?",
+             "Can you give me an idea of the salary range for roles?",
+             "I'm curious about the average salary in."
+         ],
+         "responses": [
+             "Sure! You can check the salary information in the job details. Here's how to do it:\n1. Search for the job you want to check the salary for.\n2. Click on the job listing to view its details.\n3. In the job details, you'll find the salary information if available.\nFeel free to explore and find the salary details you need!",
+             "I can help with that! To find salary information, search for the job you're interested in and click on it to view the job details. There, you'll find the salary information if provided. Happy job hunting!",
+             "Absolutely! If you're curious about the average salary in a specific industry, simply search for jobs within that industry. Click on any job listing to view its details, where you'll find salary information if available. Explore and discover the salary details you're looking for!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "company_information",
+         "patterns": [
+             "Can you tell me more about this company?",
+             "I'm interested in learning about this company.",
+             "What can you tell me about this company's culture?"
+         ],
+         "responses": [
+             "Sure! You can find information about the company you want to know in the job details. Here's how to do it:\n1. Search for jobs at the company you want to know.\n2. Click on any job listing to view its details.\n3. In the job details, you'll find information about that company.\nExplore and discover more about that company!",
+             "I can provide you with details about the company. To learn more, search for jobs at the company that you want and click on any job listing to view its details. There, you'll find information about that company and its culture. Happy exploring!",
+             "Absolutely! To learn about company's culture, search for jobs at that company and click on any job listing to view its details. You'll find insights into the company's culture in the job details. Dive in and explore!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "application_process",
+         "patterns": [
+             "How do I track my application status?",
+             "Can I get feedback on my recent job application?",
+             "What steps should I take after applying for a job?"
+         ],
+         "responses": [
+             "I can assist you with tracking your application status. You can check it in the application menu, where you'll find information such as 'Applied', 'Under Review', or 'Accepted'.",
+             "Sure! Let's discuss how you can get feedback on your application. You can do so by checking the application menu, where you'll find updates on your application status, including 'Applied', 'Under Review', or 'Accepted'.",
+             "Let me guide you through the next steps after applying for a job. You can find information about your application status in the application menu, which includes details like 'Applied', 'Under Review', or 'Accepted'."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "job_search_interests",
+         "patterns": [
+            "I'm on the hunt for a dream job! Can you help?",
+            "Seeking an adventure in the job market! Where do I start?",
+            "Looking for a career that feels like a passion project!",
+            "Got any job gems waiting to be discovered?",
+            "Intrigued by the job world's mysteries! Any clues?",
+            "Searching for the perfect job match! Any candidates?",
+            "Ready to dive into the job ocean! Any pearls to find?"
+         ],
+         "responses": [
+            "Absolutely! Let's embark on this job-seeking adventure together!",
+            "Exciting! Let's uncover some hidden job treasures!",
+            "Absolutely! Let's turn your career aspirations into reality!",
+            "Absolutely! Let's uncover some job gems together!",
+            "Intriguing! Let's decode the mysteries of the job market!",
+            "Absolutely! Let's find that perfect job match!",
+            "Absolutely! Let's dive into the job ocean and find those pearls!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "career_adventure",
+         "patterns": [
+             "Ready for a career adventure! Any daring opportunities?",
+             "Seeking a career journey filled with excitement!",
+             "Intrigued by the unknown paths of my career journey!",
+             "Ready to embark on a career quest! Where to first?",
+             "Looking to spice up my career path with some adventure!",
+             "Seeking a career expedition into the unknown!",
+             "Ready to discover new horizons in my career journey!"
+         ],
+         "responses": [
+             "Absolutely! Let's embark on this career adventure together! Start by exploring industries and roles that spark your interest. Consider taking on new challenges, such as learning new skills or pursuing certifications. Network with professionals in diverse fields, attend career fairs, and seek out mentorship opportunities. By embracing change and staying open to new experiences, you'll uncover exciting paths in your career journey!",
+             "Exciting! Let's explore exciting career opportunities! Begin by reflecting on your passions, strengths, and career goals. Research industries and roles that align with your interests, and be open to stepping outside your comfort zone. Network with professionals in various fields, attend workshops and conferences, and consider seeking out career coaching or mentorship. By embracing uncertainty and seizing opportunities, you'll embark on a fulfilling career journey!",
+             "Absolutely! Let's uncover new paths in your career journey! Start by assessing your skills, interests, and values to identify potential career directions. Explore industries and roles that align with your aspirations, and be open to trying new experiences. Network with professionals from diverse backgrounds, attend industry events, and consider volunteering or interning to gain valuable insights. By embracing curiosity and taking calculated risks, you'll navigate your career journey with confidence!",
+             "Absolutely! Let's map out your career quest together! Begin by setting clear goals and priorities for your career. Identify areas for growth and development, and seek out opportunities that challenge and inspire you. Network with professionals in your desired field, and leverage their insights and experiences to navigate your journey. Stay adaptable and resilient in the face of challenges, and remember to celebrate your achievements along the way!",
+             "Absolutely! Let's infuse some adventure into your career path! Start by exploring unconventional career options and industries that intrigue you. Seek out opportunities for professional growth and skill development, and be willing to take calculated risks. Network with individuals who have pursued non-traditional career paths, and learn from their experiences. By embracing creativity and innovation, you'll carve out a unique and fulfilling career journey!",
+             "Absolutely! Let's set sail on a career expedition! Begin by expanding your professional network and connecting with individuals who inspire you. Explore opportunities for international work or remote employment to broaden your horizons. Consider pursuing additional education or training to enhance your skill set, and be open to taking on new challenges. By embracing adventure and embracing the unknown, you'll navigate your career journey with excitement and curiosity!",
+             "Absolutely! Let's discover new horizons in your career journey! Start by exploring different industries and job roles to expand your perspective. Seek out opportunities for professional development and growth, such as mentorship programs or leadership training. Network with professionals from diverse backgrounds, and be open to learning from their experiences. By staying curious and adaptable, you'll uncover exciting opportunities and chart a course towards success!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "resume_tuneup",
+         "patterns": [
+             "My resume needs a makeover! Any tips?",
+             "Time for a resume revamp! Can you guide me?",
+             "Looking to give my resume a facelift! Ideas?",
+             "Ready to polish my resume to perfection! Suggestions?",
+             "My resume needs a little magic! Can you help?",
+             "Seeking the secrets to crafting a killer resume!",
+             "Any tricks for making my resume stand out?",
+             "My CV needs a makeover! Any tips?",
+             "Time for a CV revamp! Can you guide me?",
+             "Looking to give my CV a facelift! Ideas?",
+             "Ready to polish my CV to perfection! Suggestions?",
+             "My CV needs a little magic! Can you help?",
+             "Seeking the secrets to crafting a killer CV!",
+             "Any tricks for making my CV stand out?"
+         ],
+         "responses": [
+             "Absolutely! Let's give your resume or CV a makeover that shines! Start by focusing on key achievements, using action verbs, and ensuring a clean and professional format.",
+             "Exciting! Let's revamp your resume or CV for success! Tailor it to each job application, quantify your accomplishments, and highlight relevant skills and experiences.",
+             "Absolutely! Let's give your resume or CV a fresh new look! Update your contact information, streamline your sections, and incorporate industry-specific keywords.",
+             "Absolutely! Let's polish your resume or CV until it gleams! Proofread for errors, customize for each job, and ensure consistency in formatting and style.",
+             "Absolutely! Let's work some magic on your resume or CV! Add a professional summary, use bullet points for clarity, and showcase your unique strengths.",
+             "Absolutely! Let's unlock the secrets to a killer resume or CV! Highlight your most relevant experiences, quantify achievements, and tailor it to your career goals.",
+             "Absolutely! Let's make your resume or CV stand out from the crowd! Focus on readability, use a clean and professional design, and showcase your value to potential employers."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "dream_job_hunt",
+         "patterns": [
+             "On a quest for my dream job! Any leads?",
+             "Seeking the holy grail of jobs! Any tips?",
+             "Hunting for the job of my dreams! Can you help me?",
+             "Ready to chase after my dream job! Where should I start?",
+             "Looking for that perfect job match made in heaven!",
+             "Seeking my dream job like a knight on a quest!",
+             "Dreaming of the perfect job! Any dreams to catch?"
+         ],
+         "responses": [
+             "Absolutely! Let's make your dream job a reality! Start by identifying your skills, passions, and career goals. Then, research companies and roles aligned with your aspirations. Tailor your resume and cover letter for each application, network with professionals in your desired field, and stay persistent in your job search. Your dream job is out there waiting for you!",
+             "Exciting! Let's make your dream job a reality! Begin by reflecting on what truly excites and motivates you in your career. Use this self-awareness to target industries and roles that align with your passions and values. Network with professionals in your desired field, seek mentorship, and continuously improve your skills. With dedication and perseverance, you'll turn your dream job into a fulfilling reality!",
+             "Absolutely! Let's make your dream job a reality! Start by defining what success means to you professionally and personally. Research companies and industries that align with your values and career aspirations. Network with professionals in your field of interest, attend industry events, and seek out mentors who can offer guidance. With determination and strategic planning, you'll be one step closer to landing your dream job!",
+             "Absolutely! Let's make your dream job a reality! Begin by envisioning your ideal role and environment. Then, create a targeted job search strategy, focusing on companies and positions that align with your career goals. Polish your resume, enhance your online presence, and practice interviewing skills. Stay proactive and adaptable in your job search journey, and don't be afraid to pursue opportunities that excite you!",
+             "Absolutely! Let's make your dream job a reality! Start by clarifying your career aspirations and values. Research companies and roles that match your criteria, and tailor your job search accordingly. Network with professionals in your desired field, attend industry events, and seek informational interviews. With perseverance and a clear vision, you'll be well on your way to finding your perfect job match!",
+             "Absolutely! Let's make your dream job a reality! Approach your job search with a clear focus on your passions and strengths. Research companies that resonate with your values and offer opportunities for growth. Network with professionals in your field, leverage online platforms for job search, and don't hesitate to reach out to mentors for guidance. Stay persistent and adaptable, and your dream job will become attainable!",
+             "Absolutely! Let's make your dream job a reality! Begin by defining your career goals and aspirations. Research industries and roles that align with your interests and skills. Network with professionals in your desired field, attend industry events, and seek out informational interviews. Keep an open mind, stay resilient, and remain focused on your vision. Your dream job is within reach!"
+         ],
+         "context_set": ""
+      },
+      {
+            "tag": "creative_job_seeker",
+            "patterns": [
+               "Seeking a job adventure filled with creativity!",
+               "Ready to paint my career canvas with creativity!",
+               "In search of a career playground to unleash my creativity!",
+               "Ready to sculpt my career path with creativity! Any ideas?",
+               "Seeking a job journey where creativity knows no bounds!",
+               "Looking for a job landscape to let my creativity flourish!",
+               "Dreaming of a career where creativity is the main ingredient!"
+            ],
+            "responses": [
+               "Absolutely! Let's explore job opportunities where creativity thrives!",
+               "Exciting! Let's paint your career canvas with creativity!",
+               "Absolutely! Let's find a career playground where your creativity shines!",
+               "Absolutely! Let's sculpt your career path with boundless creativity!",
+               "Absolutely! Let's embark on a job journey where creativity knows no bounds!",
+               "Absolutely! Let's find a job landscape where your creativity flourishes!",
+               "Absolutely! Let's make your dream of a creative career a reality!"
+            ],
+            "context_set": ""
+      },
+      {
+            "tag": "job_search_help",
+            "patterns": [
+               "I need help with my job search. Can you assist?",
+               "Looking for some guidance in my job search.",
+               "Feeling lost in my job hunt. Any advice?",
+               "Can you help me navigate the job market?",
+               "Seeking assistance in finding the right job.",
+               "Not sure where to start with my job search. Any tips?",
+               "Feeling overwhelmed with job options. Where do I begin?"
+            ],
+            "responses": [
+               "Of course! I'm here to help with your job search.",
+               "Absolutely! Let's work together to find the right job for you.",
+               "Don't worry, I can provide guidance to make your job hunt easier.",
+               "Sure thing! Let's navigate the job market together.",
+               "I'll do my best to assist you in finding the perfect job.",
+               "No problem! I can offer some tips to kickstart your job search.",
+               "I understand. Let's narrow down your options and find a starting point."
+            ],
+            "context_set": ""
+      },
+      {
+         "tag": "portfolio_assistance",
+         "patterns": [
+            "Can you help me build my portfolio?",
+            "Looking for advice on creating a professional portfolio.",
+            "Not sure what to include in my portfolio. Any suggestions?",
+            "Seeking assistance with my professional portfolio.",
+            "How do I showcase my work effectively in a portfolio?",
+            "Want to make my portfolio stand out. Any tips?",
+            "Need help organizing my portfolio. Where do I start?"
+         ],
+         "responses": [
+            "Absolutely! Let's collaborate on building a professional portfolio tailored to your goals and target audience. We'll discuss your skills, experiences, and the type of work you want to showcase. Together, we'll create a standout portfolio that highlights your strengths and accomplishments.",
+            "Sure thing! Creating a professional portfolio is crucial for showcasing your talents effectively. Let's start by discussing your objectives and the type of work you want to include. I'll provide advice on content selection, layout design, and presentation techniques to help your portfolio stand out.",
+            "I'm here to help! Crafting a compelling portfolio begins with identifying the most relevant content to showcase your skills and experiences. Let's brainstorm together to determine which projects, achievements, and samples best represent your abilities. We'll ensure your portfolio reflects your strengths and aligns with your career goals.",
+            "Of course! Whether you're just starting or looking to revamp your portfolio, I'm here to assist you. Let's review your existing portfolio or discuss your vision for a new one. I'll provide guidance on content selection, organization, and presentation to create a polished portfolio that impresses employers.",
+            "No problem! Showcasing your work effectively involves selecting the right projects, presenting them professionally, and highlighting your contributions. Let's dive into strategies for organizing your portfolio, creating engaging project descriptions, and arranging visuals to capture attention. Together, we'll ensure your portfolio leaves a lasting impression.",
+            "Absolutely! Making your portfolio stand out requires attention to detail and a thoughtful approach. Let's explore ways to differentiate your portfolio, such as incorporating unique visuals, showcasing diverse skills, and telling compelling stories about your projects. With the right strategies in place, we'll make sure your portfolio grabs attention for all the right reasons.",
+            "Don't worry, I'll guide you through the organization process. We'll start by categorizing your work into relevant sections based on skills, projects, or industries. Then, we'll determine the best layout and navigation to ensure a seamless user experience. Together, we'll create a well-organized portfolio that effectively showcases your talents and achievements."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "interview_tips",
+         "patterns": [
+            "Can you give me some tips for job interviews?",
+            "Looking for advice on how to ace job interviews.",
+            "Not sure how to prepare for an upcoming interview. Any suggestions?",
+            "Seeking guidance on handling job interviews effectively.",
+            "How do I make a good impression during a job interview?",
+            "Want to be well-prepared for my next interview. Any tips?",
+            "Need help boosting my confidence for job interviews."
+         ],
+         "responses": [
+            "Absolutely! Here are some tips to help you ace your job interviews:\n1. Research the company and role thoroughly.\n2. Practice common interview questions and prepare your responses.\n3. Dress professionally and arrive on time.\n4. Showcase your skills and experiences confidently.\n5. Ask insightful questions about the company and position.\n6. Follow up with a thank-you note after the interview.\nGood luck!",
+            "Sure thing! To ace your job interviews, consider these tips:\n1. Practice answering common interview questions.\n2. Highlight your relevant skills and experiences.\n3. Show enthusiasm and interest in the company.\n4. Prepare questions to ask the interviewer.\n5. Practice good body language and maintain eye contact.\n6. Follow up with a thank-you email after the interview.\nYou got this!",
+            "I'm here to help! Here are some tips for preparing for job interviews:\n1. Research the company and understand its culture.\n2. Prepare concise and compelling answers to common interview questions.\n3. Dress professionally and arrive early.\n4. Practice active listening and maintain good eye contact.\n5. Showcase your achievements and relevant experiences.\n6. Follow up with a thank-you email or note.\nBest of luck!",
+            "Of course! Here are some interview tips to help you succeed:\n1. Research the company and its industry.\n2. Practice answering behavioral interview questions.\n3. Prepare examples to demonstrate your skills and experiences.\n4. Dress appropriately and arrive early.\n5. Show enthusiasm and confidence during the interview.\n6. Follow up with a thank-you email after the interview.\nYou've got this!",
+            "No problem! Here are some interview tips to boost your confidence:\n1. Prepare thoroughly by researching the company and role.\n2. Practice answering interview questions aloud.\n3. Visualize a successful interview and positive outcomes.\n4. Focus on your strengths and accomplishments.\n5. Take deep breaths to calm your nerves.\n6. Remember to smile and maintain good posture.\nYou'll do great!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "career_explorer",
+         "patterns": [
+             "Ready to explore new career horizons! Any guidance?",
+             "Seeking to navigate the uncharted waters of my career!",
+             "Intrigued by the untapped potential of my career journey!",
+             "Ready to chart a new course in my career! Where to next?",
+             "Looking to discover new career territories and possibilities!",
+             "Seeking to blaze new trails in my career journey!",
+             "Dreaming of a career voyage filled with exploration and discovery!"
+         ],
+         "responses": [
+             "Absolutely! Let's explore new career horizons together! Start by conducting a self-assessment to identify your strengths, interests, and values. Research industries and roles that align with your aspirations, and be open to exploring unconventional career paths. Network with professionals in diverse fields, attend industry events, and seek out informational interviews to gain insights into different career opportunities. By embracing curiosity and adaptability, you'll discover exciting possibilities for your career journey!",
+             "Exciting! Let's navigate the uncharted waters of your career! Begin by reflecting on your career goals and aspirations, and identify areas where you'd like to grow and develop. Explore industries and roles that align with your interests, and consider pursuing additional education or training to expand your skill set. Network with professionals who inspire you, and seek out mentors who can offer guidance and support. By staying open to new experiences and opportunities, you'll chart a course towards a fulfilling career!",
+             "Absolutely! Let's tap into the untapped potential of your career journey! Start by challenging yourself to step outside your comfort zone and explore new opportunities. Take on projects or roles that stretch your skills and capabilities, and be proactive in seeking out learning and development opportunities. Network with professionals who have diverse backgrounds and experiences, and leverage their insights to broaden your perspective. By embracing growth and innovation, you'll unlock new possibilities for your career!",
+             "Absolutely! Let's chart a new course in your career! Begin by setting clear goals and priorities for your professional growth and development. Identify industries and roles that align with your interests and aspirations, and create a plan to pursue them. Network with professionals in your desired field, and seek out mentors who can provide guidance and support along the way. By taking proactive steps towards your goals, you'll navigate your career journey with purpose and direction!",
+             "Absolutely! Let's discover new career territories and possibilities together! Start by expanding your professional network and connecting with individuals who work in industries or roles that intrigue you. Attend industry events, workshops, and conferences to learn about emerging trends and opportunities. Be open to exploring different career paths and taking on new challenges that push your boundaries. By staying curious and adaptable, you'll uncover exciting possibilities for your career!",
+             "Absolutely! Let's blaze new trails in your career journey! Begin by identifying your strengths, passions, and values, and use them as a compass to guide your exploration. Seek out opportunities to gain new experiences and skills, whether through volunteer work, side projects, or additional education. Network with professionals who share your interests, and collaborate with them on projects or initiatives. By embracing innovation and creativity, you'll carve out a unique and fulfilling career path!",
+             "Absolutely! Let's embark on a career voyage filled with exploration and discovery! Start by envisioning your ideal career destination and setting goals to guide your journey. Be open to trying new things and exploring different paths, even if they seem unconventional or unexpected. Seek out mentors who can offer guidance and support, and build a network of like-minded professionals who share your passion for discovery. By embracing the unknown and staying curious, you'll embark on an exciting adventure towards your dream career!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "job_search_tips",
+         "patterns": [
+             "Any tips for job hunting?",
+             "Looking for advice on job search!",
+             "Tips on finding a job?",
+             "How can I improve my job search?",
+             "Seeking tips for finding employment!",
+             "Any suggestions for job hunting?"
+         ],
+         "responses": [
+             "Certainly! Here are some tips for job hunting:\n1. Identify what you're passionate about and interested in.\n2. Explore job listings on various platforms to see what opportunities are available.\n3. Create a list of preferred companies and industries.\n4. Tailor your resume and cover letter to each job application.\n5. Network with professionals in your desired field.\n6. Stay organized and track your job applications.\n7. Follow up on job applications and interviews.\nHappy job hunting!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "job_search_improvement",
+         "patterns": [
+             "How do I improve my job search?",
+             "Any tips for enhancing my job search?",
+             "What can I do to make my job search more effective?",
+             "Looking to improve my job search skills. Any advice?",
+             "Can you provide guidance on optimizing my job search?",
+             "I want to improve my job search. Where should I start?",
+             "Seeking ways to enhance my job search. Any suggestions?",
+             "What strategies can I use to boost my job search?",
+             "In need of tips for improving my job search. Can you help?",
+             "How can I make my job search more successful?"
+         ],
+         "responses": [
+             "To improve your job search, consider the following tips:\n1. Tailor your resume and cover letter for each job application to highlight relevant skills and experiences.\n2. Expand your job search to include multiple platforms, such as job boards, company websites, and professional networking sites.\n3. Network with professionals in your industry by attending events, joining online communities, and reaching out for informational interviews.\n4. Set specific goals and deadlines for your job search activities to stay focused and motivated.\n5. Continuously update your skills and knowledge through online courses, workshops, or certifications.\n6. Practice interview techniques and prepare answers to common interview questions to boost your confidence.\n7. Stay organized by keeping track of your job applications, follow-ups, and networking contacts.\nBy implementing these strategies, you can enhance your job search effectiveness and increase your chances of landing your desired position."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "company_culture",
+         "patterns": [
+            "What's the company culture like at the companies listed in this application?",
+            "Can you tell me about the culture at the companies listed in this application?",
+            "What's it like to work at the companies listed in this application?",
+            "How would you describe the workplace culture at the companies listed in this application?"
+         ],
+         "responses": [
+             "While company cultures can vary widely, many companies strive to foster a positive and inclusive work environment where employees feel valued, supported, and empowered. Common elements of a positive company culture include strong communication channels, opportunities for professional growth and development, a focus on work-life balance, and a commitment to diversity, equity, and inclusion. However, it's always a good idea to research specific companies further to get a more detailed understanding of their unique culture."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "professional_development",
+         "patterns": [
+             "Can you suggest professional development resources?",
+             "Any recommendations for professional growth?",
+             "Looking for resources to enhance my skills. Can you help?",
+             "Where can I find courses for professional development?",
+             "Seeking advice on advancing my career. Any suggestions?",
+             "I want to invest in my professional development. What should I do?",
+             "How can I improve my skills and knowledge?",
+             "In need of resources for continuing education. Can you recommend any?",
+             "What are some good options for professional development?",
+             "Can you provide guidance on furthering my career?"
+         ],
+         "responses": [
+             "Certainly! There are numerous professional development resources available to help you enhance your skills and advance your career. You can consider the following options:\n1. Online learning platforms such as Coursera, Udemy, and LinkedIn Learning offer a wide range of courses on various topics.\n2. Industry-specific conferences, workshops, and webinars provide opportunities for networking and learning from experts in your field.\n3. Professional associations and organizations often offer resources such as publications, certifications, and training programs.\n4. Mentoring programs allow you to learn from experienced professionals and receive personalized guidance on your career journey.\n5. Books, podcasts, and blogs are valuable sources of knowledge and inspiration.\nBy exploring these resources and continuously investing in your professional development, you can stay competitive and achieve your career goals."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "job_listings_issue",
+         "patterns": [
+             "The app is not showing any job listings. What should I do?",
+             "I'm experiencing issues with job listings on the app. Can you help?",
+             "Why aren't job listings showing up on the app?",
+             "I can't see any job openings in the app. What's wrong?",
+             "There seems to be a problem with the job listings in the app.",
+             "What should I do if I can't find any job listings on the app?",
+             "Job listings are not loading on the app. Any suggestions?",
+             "The app isn't displaying any job opportunities. How can I fix this?",
+             "I've tried accessing job listings on the app, but nothing is showing up.",
+             "How do I troubleshoot the issue of missing job listings in the app?"
+         ],
+         "responses": [
+             "If you're experiencing issues with job listings not showing up in the app, try the following troubleshooting steps:\n1. Refresh the app by closing and reopening it to see if that resolves the issue.\n2. Check your internet connection to ensure it's stable and working properly.\n3. Update the app to the latest version available in the app store to ensure you have the most recent features and bug fixes.\n4. Clear the app cache or data in your device settings, then restart the app to see if that resolves the issue.\n5. Contact the app support team or customer service for further assistance if the problem persists.\nBy following these steps, you should be able to resolve the issue and access job listings in the app."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "career_advancement_tips",
+         "patterns": [
+             "What are some tips for career advancement?",
+             "Seeking advice on advancing my career. Any suggestions?",
+             "How can I progress in my career?",
+             "Looking for tips on climbing the career ladder. Can you help?",
+             "What steps should I take to advance in my career?",
+             "How do I move forward in my career?",
+             "Any strategies for career growth and advancement?",
+             "What can I do to accelerate my career?",
+             "In need of tips for professional development and advancement.",
+             "What are some ways to achieve career success?"
+         ],
+         "responses": [
+             "To advance in your career, consider the following tips:\n1. Set clear goals: Define your career objectives and create a roadmap for achieving them.\n2. Continuously learn and develop: Stay updated on industry trends, acquire new skills, and pursue relevant certifications or training programs.\n3. Seek feedback: Actively seek feedback from peers, mentors, and supervisors to identify areas for improvement and growth.\n4. Build a strong network: Cultivate relationships with professionals in your field, attend networking events, and seek out mentors who can offer guidance and support.\n5. Take on challenges: Volunteer for new projects, lead initiatives, and demonstrate your willingness to take on responsibilities beyond your current role.\n6. Communicate your ambitions: Advocate for yourself, express your career aspirations to your manager, and seek opportunities for advancement within your organization.\nBy implementing these strategies, you can position yourself for career advancement and long-term success."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "salary_negotiation_tips",
+         "patterns": [
+             "How do I negotiate salary during a job offer?",
+             "Seeking advice on salary negotiation. Can you help?",
+             "Any tips for negotiating salary during a job offer?",
+             "What's the best approach to salary negotiation?",
+             "I want to negotiate my salary for a job offer. What should I do?",
+             "How can I ensure a successful salary negotiation?",
+             "Looking for strategies to negotiate salary. Any suggestions?",
+             "What are some dos and don'ts of salary negotiation?",
+             "In need of guidance on discussing salary during a job offer."
+         ],
+         "responses": [
+             "Negotiating salary during a job offer can be a crucial step in securing fair compensation for your skills and experience. Here are some tips to help you navigate the process:\n1. Do your research: Research the market value for your position and experience level to determine a reasonable salary range.\n2. Highlight your value: Emphasize your qualifications, accomplishments, and unique skills that justify a higher salary.\n3. Practice effective communication: Clearly articulate your salary expectations and reasoning behind them, while remaining professional and respectful.\n4. Be flexible: Be open to compromise and consider factors beyond salary, such as benefits, bonuses, and opportunities for growth.\n5. Know when to negotiate: Timing is key, so wait for the right moment to discuss salary, such as after receiving a formal job offer.\n6. Be prepared to walk away: Understand your worth and be prepared to walk away if the offer does not meet your expectations.\nBy following these tips, you can negotiate a salary that reflects your value and contributes to your overall satisfaction in the role."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "in_demand_skills",
+         "patterns": [
+             "What are some in-demand skills for today's job market?",
+             "Seeking information on in-demand skills. Can you help?",
+             "Any insights into skills that are in high demand?",
+             "What skills should I focus on for today's job market?",
+             "I want to develop skills that are in demand. Any suggestions?",
+             "How can I stay competitive with my skill set?",
+             "Looking for recommendations on valuable skills for the job market.",
+             "What are employers looking for in terms of skills?",
+             "In need of guidance on acquiring skills for the current job market."
+         ],
+         "responses": [
+             "In today's job market, several skills are highly sought after by employers across various industries. Some in-demand skills include:\n1. Digital literacy: Proficiency in using digital tools, software, and technology platforms.\n2. Data analysis: Ability to analyze and interpret data to make informed decisions and solve complex problems.\n3. Communication skills: Strong verbal and written communication skills, as well as the ability to collaborate effectively with others.\n4. Adaptability: Capacity to adapt to changing work environments, technologies, and job requirements.\n5. Critical thinking: Ability to think critically, analyze information, and make reasoned judgments.\n6. Emotional intelligence: Awareness of and ability to manage one's own emotions, as well as effectively navigate interpersonal relationships.\n7. Leadership skills: Capacity to lead, motivate, and inspire others, as well as manage projects and teams.\nBy developing these skills, you can enhance your employability and stay competitive in today's dynamic job market."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "career_switch_tips",
+         "patterns": [
+             "How do I switch careers?",
+             "Seeking advice on changing careers. Can you help?",
+             "Any tips for transitioning to a new career?",
+             "What's the best approach to switching careers?",
+             "I want to change careers. Where do I start?",
+             "How can I successfully switch careers?",
+             "Looking for strategies to navigate a career change. Any suggestions?",
+             "What are some steps I should take to switch careers?",
+             "In need of guidance on transitioning to a different career."
+         ],
+         "responses": [
+             "Switching careers can be a daunting but rewarding endeavor. Here are some tips to help you navigate the process:\n1. Self-assessment: Reflect on your skills, interests, values, and career goals to identify potential new career paths that align with your strengths and passions.\n2. Research: Explore different industries, roles, and job opportunities to gain a better understanding of the requirements, trends, and potential for growth.\n3. Skill development: Identify any gaps in your skills or knowledge required for your desired career path, and invest in relevant training, education, or certifications to enhance your qualifications.\n4. Networking: Connect with professionals in your target industry or role through informational interviews, networking events, and online communities to gain insights, advice, and potential job leads.\n5. Gain experience: Consider volunteering, freelancing, or taking on part-time work in your desired field to gain hands-on experience and demonstrate your commitment and capabilities.\n6. Update your resume and online presence: Tailor your resume, cover letter, and LinkedIn profile to highlight relevant skills, experiences, and achievements for your new career path.\n7. Be patient and persistent: Recognize that career transitions take time and effort, and be prepared to face challenges and setbacks along the way. Stay focused, resilient, and open to new opportunities.\nBy following these tips and remaining proactive in your career exploration and development, you can successfully navigate a career switch and embark on a fulfilling new professional journey."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "senior_level_job_search_techniques",
+         "patterns": [
+             "What are the best job search techniques for senior-level positions?",
+             "Seeking advice on job searching for senior-level roles. Can you help?",
+             "Any tips for finding senior-level positions?",
+             "How can I effectively search for executive-level jobs?",
+             "I'm looking for senior-level job opportunities. What's the best approach?",
+             "How do I navigate the job market for senior executives?",
+             "Looking for strategies to land senior-level positions. Any suggestions?",
+             "What are some effective techniques for job hunting at the executive level?",
+             "In need of guidance on job searching for senior professionals."
+         ],
+         "responses": [
+             "Searching for senior-level positions requires a strategic and targeted approach. Here are some techniques to help you in your job search:\n1. Tap into your network: Leverage your professional network, including colleagues, mentors, and industry contacts, to uncover hidden job opportunities and gain referrals.\n2. Executive recruiters: Build relationships with executive search firms and recruiters specializing in senior-level placements, and maintain an active presence on professional networking platforms.\n3. Executive job boards: Utilize specialized job boards and platforms that cater to senior-level professionals, where you can find exclusive job listings and networking opportunities.\n4. Personal branding: Establish a strong personal brand through thought leadership, speaking engagements, and online presence to showcase your expertise and credibility in your industry.\n5. Tailored applications: Customize your resume, cover letter, and application materials to highlight your leadership skills, accomplishments, and relevant experience for senior-level roles.\n6. Industry events and conferences: Attend industry conferences, networking events, and professional associations to stay informed about industry trends, build connections, and uncover job opportunities.\n7. Professional development: Continuously invest in your professional development by pursuing advanced certifications, executive education programs, and leadership training to enhance your qualifications and stay competitive in the job market.\nBy incorporating these techniques into your job search strategy, you can increase your visibility, expand your network, and position yourself for success in landing senior-level positions."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "growing_industries",
+         "patterns": [
+             "What are some growing industries to look into?",
+             "Seeking information on emerging industries. Can you help?",
+             "Any insights into industries experiencing growth?",
+             "Which industries are on the rise?",
+             "I want to explore industries with promising prospects. Any suggestions?",
+             "How can I identify growing sectors to pursue?",
+             "Looking for recommendations on lucrative industries for the future.",
+             "What are some booming industries worth considering?",
+             "In need of guidance on industries with potential for growth."
+         ],
+         "responses": [
+             "Several industries are experiencing rapid growth and offer promising opportunities for job seekers. Here are some growing sectors to consider:\n1. Technology: The technology sector continues to expand, with advancements in areas such as artificial intelligence, cybersecurity, cloud computing, and software development driving demand for skilled professionals.\n2. Healthcare: With an aging population and increasing focus on healthcare innovation and digital health solutions, the healthcare industry offers diverse opportunities in areas such as telemedicine, health informatics, and medical research.\n3. Renewable energy: As concerns about climate change grow, the renewable energy industry, including solar, wind, and hydropower, is experiencing significant growth and demand for professionals in renewable energy engineering, project management, and sustainability.\n4. E-commerce and digital retail: The rise of online shopping and digital commerce platforms has led to a surge in demand for e-commerce specialists, digital marketers, and supply chain professionals.\n5. Green technology: With a focus on sustainability and environmental conservation, the green technology sector, including green building, renewable materials, and waste management, offers opportunities for professionals passionate about environmental stewardship.\n6. Remote work and digital nomadism: The shift towards remote work and distributed teams has created opportunities in remote work platforms, digital nomad communities, and remote-friendly companies across various industries.\nBy exploring these growing industries and staying informed about emerging trends, you can identify promising career paths and position yourself for success in dynamic and expanding sectors."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "update_profile_information",
+         "patterns": [
+             "How do I update my profile information?",
+             "Seeking guidance on updating profile details. Can you help?",
+             "Any instructions for editing profile information?",
+             "How can I change my profile details?",
+             "I want to update my profile. What should I do?",
+             "How do I edit my profile information?",
+             "Looking for steps to modify profile details.",
+             "What's the process for updating profile information?",
+             "In need of assistance with profile updates."
+         ],
+         "responses": [
+             "Updating your profile information is easy! Here's how you can do it:\n1. Navigate to the 'Profile' or 'Account Settings' section, typically located in the menu on the homepage.\n2. Look for the option to 'Edit' or 'Update' your profile information.\n3. Click on the relevant fields you wish to modify, such as your name, contact information, work experience, education, or skills.\n4. Make the desired changes to your profile information.\n5. Review your updates to ensure accuracy and completeness.\n6. Save or submit your changes.\n7. Confirm the changes if prompted, and you're all set!\nBy following these steps, you can easily update your profile information and keep it current and relevant."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "job_search_specific_niche",
+         "patterns": [
+             "How can I search for jobs in a specific niche or specialty?",
+             "Seeking guidance on finding niche-specific jobs. Can you help?",
+             "Any tips for searching for jobs in a particular niche?",
+             "How do I find job opportunities in a specialized field?",
+             "I'm looking for jobs in a specific niche. What's the best approach?",
+             "How can I narrow down job search results to a specific specialty?",
+             "Looking for strategies to find niche-specific job openings.",
+             "What's the process for searching for jobs in a specialized area?",
+             "In need of assistance with niche job searches."
+         ],
+         "responses": [
+             "Searching for jobs in a specific niche or specialty requires a targeted approach. Here's how you can do it:\n1. Identify your niche: Define the specific industry, field, or specialty you're interested in targeting for your job search.\n2. Utilize specialized job boards: Look for job boards and online platforms that cater to your niche or specialty, where you're more likely to find relevant job openings.\n3. Use specific keywords: Use niche-specific keywords and terms when conducting online job searches to filter results and find relevant job postings.\n4. Network with professionals in your niche: Connect with professionals, associations, and groups within your niche through networking events, online forums, and social media platforms to discover hidden job opportunities and gain insights.\n5. Tailor your resume and cover letter: Customize your resume and cover letter to highlight your relevant skills, experiences, and achievements in your niche or specialty.\n6. Attend industry events: Participate in industry conferences, workshops, and events related to your niche to expand your network, learn about industry trends, and explore job opportunities.\n7. Follow niche-specific companies: Research and follow companies within your niche or specialty on social media platforms, job boards, and company websites to stay updated on job openings and company news.\nBy implementing these strategies, you can effectively search for jobs in your specific niche or specialty and increase your chances of finding opportunities that align with your interests and expertise."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "jobs_for_recent_graduates",
+         "patterns": [
+             "Can you recommend jobs for recent graduates?",
+             "Seeking job recommendations for recent graduates. Can you help?",
+             "Any suggestions for entry-level jobs for recent graduates?",
+             "What are some suitable job options for recent graduates?",
+             "I'm a recent graduate looking for job opportunities. What do you recommend?",
+             "How can recent graduates find job openings suited to their skills?",
+             "Looking for recommendations on entry-level positions for recent graduates.",
+             "What types of jobs are ideal for recent graduates?",
+             "In need of guidance on job options for recent grads."
+         ],
+         "responses": [
+             "Certainly! Here are some job recommendations for recent graduates:\n1. Internships: Consider internships in your field of study or industry to gain practical experience, expand your network, and explore potential career paths.\n2. Entry-level positions: Look for entry-level roles such as administrative assistant, customer service representative, sales associate, or junior analyst, which typically require minimal experience and offer opportunities for skill development and growth.\n3. Graduate programs: Explore graduate programs, trainee schemes, or rotational programs offered by companies in your industry, which provide structured training, mentorship, and exposure to different areas of the business.\n4. Freelancing or gig work: Consider freelancing or gig work in areas such as graphic design, writing, social media management, or web development, which allow you to gain experience, build a portfolio, and work on flexible schedules.\n5. Nonprofit or volunteer positions: Volunteer or work for nonprofit organizations in roles such as community outreach coordinator, fundraising assistant, or program coordinator, which offer opportunities to make a positive impact while gaining valuable experience.\n6. Start-up opportunities: Explore opportunities at start-up companies or entrepreneurial ventures where you can contribute your skills, take on responsibilities, and experience a dynamic work environment.\n7. Networking events: Attend networking events, career fairs, and alumni gatherings to connect with professionals in your field, learn about job opportunities, and seek advice from experienced professionals.\nBy exploring these job options and staying proactive in your job search, you can find opportunities that align with your interests, skills, and career goals as a recent graduate."
+         ],
+         "context_set": ""
+     }     
+   ]
+}
